@@ -1,3 +1,5 @@
+按照后找不到远程静态文件  https://juejin.cn/post/7081524207074410533
+
 ### docker-compose 文件内容
 ```
 version: '3'
