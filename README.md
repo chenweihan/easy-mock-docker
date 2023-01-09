@@ -4,7 +4,9 @@
 直接将目录内的index.html替换镜像内/home/easy-mock/easy-mock/node_modules/restc/faas/index.hmtl即可
 
 docker cp 9d54af446073:/home/easy-mock/easy-mock/node_modules/restc/faas/index.html /home/weihan.chen/file
+
 docker cp /home/weihan.chen/file/index.html 9d54af446073:/home/easy-mock/easy-mock/node_modules/restc/faas/
+
 docker restart 9d54af446073
 
 ### docker-compose 文件内容
