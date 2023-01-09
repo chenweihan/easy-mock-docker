@@ -2,15 +2,14 @@
 发现里面无法使用vim,vi,也无权限安装，拷贝出来修改
 docker cp 9d54af446073:/home/easy-mock/easy-mock/node_modules/restc/faas/index.html /home/weihan.chen/file
 
-# 编辑文件
+编辑文件
 vim node_modules/restc/faas/index.html
-# 需要替换的内容
+需要替换的内容
 <script src="https://github.elemecdn.com/highlightjs/cdn-release/9.8.0/build/highlight.min.js"></script>
-# 替换为
+替换为
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
 
 修改完
-
 
 docker cp /home/weihan.chen/file/index.html 9d54af446073:/home/easy-mock/easy-mock/node_modules/restc/faas/
 
